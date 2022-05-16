@@ -5,3 +5,5 @@ Savienojot VSC ar Github bija nepieciešams lejuplādēt Git Bash, izveidot fail
 VSC vidē izveidojām jaunu mapi, apakšmapi ar README.md failu. Lai saglabātu izmaiņas un tās sinhronizētos ar GitHub bija nepieciešams apstiprināt GitHub lietotaju. Terminal - New Terminas un jāievada komandas git config --global user.email "lapina.sigita2210@gmail.com"  
 git config --global user.name "sigitalapina"  
 :grinning:  
+
+
