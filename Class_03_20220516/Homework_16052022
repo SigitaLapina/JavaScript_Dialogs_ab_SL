@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>Home work. Vārda un uzvārda pirmo burtu pārveidošana.</h2>
+
+<table style="width:100%">
+  <tr><
+    <th>Burti</th>
+    <th>Decimālskaitlis</th>
+    <th>Binārais skaitlis</th>
+    <th>Heksadecimālskaitlis </th>
+  </tr>
+  <tr>
+    <td>S</td>
+    <td>83</td>
+    <td>1010011</td>
+    <td>53</td>
+  </tr>
+  <tr>
+    <td>L</td>
+    <td>76</td>
+    <td>1001100</td>
+    <td>4C</td>
+  </tr>
+</table>
+
+<p>Decimālskaitļu vērtība ņemta no ASCII <a href= "https://profizgl.lu.lv/pluginfile.php/34495/mod_book/chapter/6863/Informacijas_tehn._pamatjedzieni/03/3.4/43_01.png"> tabulas</a>
+Lai pārveidotu decimālskaitli binārā skaitīšanas sistēmas skaitlī izmantoju <a href="https://www.uzdevumi.lv/p/matematika-pec-skola2030-paraugprogrammas/5-klase/ka-dazadi-pieraksta-naturalos-skaitlus-32986/citas-naturalo-skaitlu-pieraksta-sistemas-78016/re-98aea7c4-1a3c-4a09-a67c-828ec4986292" pamācību</a></p>
+</body>
+</html>
