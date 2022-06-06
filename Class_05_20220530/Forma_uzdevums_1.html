@@ -10,10 +10,11 @@
         <p>Lai izpildītu šo uzdevumu nepieciešams pārskatīt, izpētīt https://www.w3schools.com pieejamo sadaļu <a href=
             "https://www.w3schools.com/html/html_forms.asp"> HTML Forms.</a> </p>
         <h3> Pamatinformācija</h3>
-     
+ <form action="http://foo.com" method="get">
+        
 <form>
     <label for="fname"><strong>Vārds:</strong></label><br> 
-    <input type ="text" id="fname" name="fname" value=""><br>
+    <input type ="text" id="fname" name="fname" value="Sigita"><br>
     <label for="fname"><strong>Uzvārds:</strong></label><br> 
     <input type ="text" id="fname" name="fname" value=""><br>
 </form>
@@ -21,14 +22,14 @@
 <form>
     <label for="username"><strong>Ievadiet savu e-pasta adresi:</strong></label>
     <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> 
-    <input type="submit"><br><br>
+    <br><br>
     <label for="pwd"><strong>Parole:</strong></label>
     <input type="password" id="pwd" name="pwd" pattern=".{10,}" title="Parolei jābūt vismaz 10 simbolu garai">
-  <input type="submit"><br><br>
+  <br><br>
     </form>
     <form>
         <label for="datemax"><strong>Datums:</strong></label>
-        <input type="date" id="datemax" name="datemax" max="1930-12-31"><br><br>
+        <input type="date" id="datemax" name="datemax" max="2022-12-31"><br><br>
     </form>
-    <input type="submit" value="Submit">
+    <input type="submit" value="iesniegt">
   </form>
