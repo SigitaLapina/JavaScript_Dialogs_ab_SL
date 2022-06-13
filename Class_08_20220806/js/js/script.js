@@ -1,7 +1,7 @@
 var x = 60;
 document.getElementById("dec").innerHTML = x
 
-var bit number = 7;
+
 var y = (x << 0) >> 7;
 var z = String(y);
 y = (x << 1) >> 7;
