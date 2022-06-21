@@ -1,0 +1,19 @@
+a = 150
+150
+if (a > 150)  {console.log(a + "ir lielāks par 150");}
+undefined
+a < 150
+false
+a = 250;
+250
+if (a > 150) {console.log(a + "ir leilāks par 150");}
+VM682:1 250ir leilāks par 150
+undefined
+a >15
+true
+a != 0;
+true
+if (a !=0) {console.log("a mainīgā vērtība (" +a+ ") nav a'apaļā' nulle - 0000....");}
+    
+VM1304:1 a mainīgā vērtība (250) nav a'apaļā' nulle - 0000....
+undefined
