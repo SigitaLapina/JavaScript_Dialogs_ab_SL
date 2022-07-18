@@ -26,3 +26,4 @@ function searchGrade(grades, search) {
 }
 searchGrade(grades, search);
 
+document.getElementById("demo").innerHTML = "atrasts skaitlis"
