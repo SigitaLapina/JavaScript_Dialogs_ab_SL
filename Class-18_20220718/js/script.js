@@ -16,14 +16,17 @@ searchGrade(grades, search);
  let grades = [91, 66, 77, 84, 66];
 let search = 66;
 
-function searchGrade(grades, search) {
-    for (cuurentGrade of grades) {
+function searchGrade(grades,search) {
+    for (currentGrade of grades) {
         if (currentGrade == search){
-        console.log(`The grade ${search} exists!`);
+        console.log(`The grade ${search} exists`);
         break;
     }
 }
 }
-searchGrade(grades, search);
+searchGrade(grades,search);
 
-document.getElementById("demo").innerHTML = "atrasts skaitlis"
+document.getElementById("demo").innerHTML = "atrasts skaitlis" + " " + search;
+
+
+
