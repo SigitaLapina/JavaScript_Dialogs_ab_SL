@@ -39,9 +39,9 @@ daudzas dažādas loģiskas operācijas matemātiskas (||, &&, ...), (bitu)
 +++ function defined by expression can't be hoisted - nevar tikt izmantotas pirms definēšanas (apraksta)
 
 6. objects 
-+ properties (īpašības) - object_name.object_propery_name
-                         object_name["object_propery_name"]
++ properties (īpašības) - object_name.object_property_name
+                         object_name["object_property_name"]
 + methods (funkcijs)
-++ const object_name = {object_propery_name: object_propery_value};
+++ const object_name = {object_property_name: object_property_value};
 const_object_name = new Object ()
 + this
