@@ -20,9 +20,13 @@ setTimeout(() => {
 }, 3000);
 
 setTimeout(() => {
-  jsWindow.resizeTo(600, 300);
+  jsWindow.resizeTo(600, 300); // Will not work for third part resources because of CORS
 }, 6000);
 
 setTimeout(() => {
     jsWindow.close();
   }, 9000);
+
+  setTimeout(() => {
+    window.open("http://127.0.0.1:5500/Class_16_20221107/index.html", "_blank");
+  }, 12000);
