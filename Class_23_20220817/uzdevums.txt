@@ -1,0 +1,17 @@
+userAgent	- Represents the user-agent string of the browser. Helps identify which browser is being used, what version, and on which operating system. 
+The userAgent property returns the user-agent header sent by the browser to the server:
+https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent
+
+vendor	- Returns the brand name of the browser. The value of the Navigator vendor property is always either "Google Inc.", "Apple Computer, Inc.", or (in Firefox) the empty string.
+
+vendorSub -	Returns extra information about the browser’s vendor. - This feature is no longer recommended. 
+Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes.
+ Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.
+
+ vibrate()	- Triggers the device to vibrate if vibration is supported.
+ The Vibration API makes it possible for a web application to vibrate a mobile device with Javascript. There will be no effect on devices that don't have vibration hardware present.
+Vibrating a mobile device has some special use-cases — passing alerts or notifications to the user, or shaking effect while playing a game.
+  Return value of navigator.vibrate() : a boolean false will be returned if the parameter given was invalid, and true otherwise.
+ - https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate
+vibrate device for 300 milliseconds
+window.navigator.vibrate(300);
