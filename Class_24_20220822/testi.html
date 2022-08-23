@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        </head>
+        <body>
+        <h2>Google loading in <span id="counter">3</span> seconds...</h2>
+        
+        <script>
+        document.onload = init() 
+        $elem = document.getElementById("counter");
+        var timer = $elem.innerHTML;
+        //timer = 30; //if you want start timer from javascript or change time inside counter
+        function init() {
+            var interval = setInterval(function() {
+                timer = timer-1;
+                $elem.innerHTML = timer;
+                if(timer == 0) {  
+                   var popWindow = window.open("http://google.com", '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+                     
+                   clearInterval(interval);
+                }
+            },1000);
+        }
+        </script>
+        </body>
+        </html>
